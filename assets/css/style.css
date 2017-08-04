@@ -1,0 +1,248 @@
+	body{
+		margin-bottom:20px;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 15px;
+		line-height: 150%;
+		color:#333;
+		background: #efeee7;
+
+}
+
+
+	header {
+		list-style-type:none;
+		margin-bottom: 30px;
+		padding:30px;
+		overflow:hidden;
+		background-color: black
+
+}
+	header li{
+		float:left;
+}
+ 
+	header li a{
+		display:block;
+		color:white;
+		text-align:center;
+		padding:14px 16px;
+		text-decoration:none;
+}
+
+.mtst{ 
+	font-size:25px; 
+}
+
+	.About img{
+		float:left;
+		margin:10px;
+		padding:5px;
+		border:10px;
+}
+
+	.About{
+		float: left;
+		padding-bottom: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 25px;
+		border-width: 10px 10px 10px 10px;
+		border-style: solid;
+		overflow: hidden;
+		width: 60%;
+}
+
+	.container{
+		padding-right: 25px;
+		padding-bottom: 25px;
+		padding-left: 25px;
+		padding-top: 25px;
+		margin-left:150px;
+		border-style :solid;
+		border-width: 20px 20px 20px 20px;
+		overflow: hidden;
+		width:100%;
+}
+
+	#pic{
+		float:left;
+}
+	#text1{
+		float:left;
+}
+	#text2{
+		float:left;
+}
+	.aside{
+		float:left;
+		margin: 100px;
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+		background-color: red;
+		position: relative;
+
+}
+
+.test{
+		border: 3px;
+		border-style: solid;
+		position: absolute;
+		top:10%;
+		width: 194px;
+		font-size:15px;
+		text-align: center;
+		overflow: auto;
+}
+
+
+
+#pic1{
+		float:left;
+		margin-left:40px;
+		margin-top:80px;
+}
+#pic2{
+		float:left;
+		margin-top:80px;
+}
+#pic3{
+		float:left;
+		margin-top:80px;
+
+}
+footer{
+		text-align: center;
+		padding: 25px;
+		background-color:black;
+		overflow: hidden;
+}
+
+	.gallery1{
+		position: relative;
+		float:left;
+}
+	.desc1{
+		border: 3px;
+		border-style: solid;
+		position: absolute;
+		top:70%;
+		width: 220px;
+		font-size:15px;
+		text-align: center;
+		overflow: auto;
+} 
+
+
+
+	.gallery2{
+		position: relative;
+		float: left;
+	} 
+
+	.desc2{
+		font-size:15px;
+		border: 3px;
+		border-style: solid;
+		position: absolute;
+		top:70%;
+		width:220px;
+		overflow: auto;
+		text-align: center;
+}
+
+	.gallery3 {
+		position: relative;
+		float: left;
+}
+
+	.desc3{
+		border:3px;
+		border-style:solid;
+		position:absolute;
+		top:70%;
+		width:220px;
+		font-size:15px;
+		text-align:center;
+
+	} 
+
+	.gallery4 {
+		position: relative;
+		float: left;
+
+} 
+
+	.desc4{
+		border: 3px;
+		border-style: solid;
+		position: absolute;
+		top:70%;
+		width:220px;
+		font-size:15px;
+		text-align: center;
+}
+	.gallery5{
+		position: relative;
+		float: left;
+
+}
+
+	.desc5{
+		border: 3px;
+		border-style: solid;
+		position: absolute;
+		font-size:15px;
+		top:70%;
+		width:220px;
+		text-align: center;
+
+}
+
+
+	.about textarea {
+    	width: 100%;
+    	height: 150px;
+    	padding: 12px 20px;
+    	box-sizing: border-box;
+    	border: 2px solid #ccc;
+   	    border-radius: 4px;
+   	 	background-color: #f8f8f8;
+    	resize: none;
+    	float:left;
+}
+	.about input[type=text] {
+    	width: 100%;
+    	padding: 12px 20px;
+    	margin: 8px 0;
+    	box-sizing: border-box;
+    	float:left;
+}
+	.bad {
+		background-color:red;
+		border: none;
+		color:white;
+		padding:16px 32px;
+		text-decoration: none;
+		margin:4px 2px;
+		cursor:pointer;
+		overflow: hidden;
+		float: left;
+}
+	#line1{
+		float:left;
+}
+	#line2{
+		float:left;
+}
+	#line3{
+		float:left;
+}
+/*
+@media only screen and (min-width: 980px;){
+
+	body{
+background-color:yellow;
+	}
+}
+	*?
