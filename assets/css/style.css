@@ -42,6 +42,7 @@
 
 	.About{
 		float: left;
+		margin:45px;
 		padding-bottom: 25px;
 		padding-left: 25px;
 		padding-right: 25px;
@@ -49,7 +50,7 @@
 		border-width: 10px 10px 10px 10px;
 		border-style: solid;
 		overflow: hidden;
-		width: 60%;
+		width: 50%;
 }
 
 	.container{
@@ -57,11 +58,10 @@
 		padding-bottom: 25px;
 		padding-left: 25px;
 		padding-top: 25px;
-		margin-left:150px;
 		border-style :solid;
 		border-width: 20px 20px 20px 20px;
 		overflow: hidden;
-		width:100%;
+		width:90%;
 }
 
 	#pic{
@@ -81,6 +81,7 @@
 		overflow: hidden;
 		background-color: red;
 		position: relative;
+
 
 }
 
@@ -114,6 +115,7 @@
 footer{
 		text-align: center;
 		padding: 25px;
+		margin-top:30px;
 		background-color:black;
 		overflow: hidden;
 }
@@ -238,11 +240,42 @@ footer{
 	#line3{
 		float:left;
 }
-/*
-@media only screen and (min-width: 980px;){
 
-	body{
-background-color:yellow;
-	}
+@media only screen and (max-width:980px) and (max-width:768px),(max-width:640px){
+
+	body{ }
+	header{}
+	header li{}
+	header li a {}
+	.mtst{}
+	.about img{}
+	.about{}
+	.container{}
+	#pic{}
+	#text1{}
+	#text2{}
+	.aside{}
+	.test{}
+	#pic1{}
+	#pic2{}
+	#pic3{}
+	footer{}
+	.gallery1{}
+	.desc1{}
+	.gallery2{}
+	.desc2{}
+	.gallery3{}
+	.desc3{}
+	.gallery4{}
+	.desc4{}
+	.gallery5{}
+	.desc5{}
+	.about textarea{}
+	.about input[type=text]{}
+	.bad{}
+	#line1{}
+	#line2{}
+	#line3{}
+
 }
-	*?
+	
